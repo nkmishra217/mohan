@@ -1,0 +1,29 @@
+class queue:
+    def __init__(bad):
+      bad.queue=[]
+    def add(bad,c):
+      if c  not in bad.queue:
+        bad.queue.insert(0,c)
+        return True
+      else:
+        return False
+    def peek(bad):
+      #return self.queue
+      return bad.queue[-1]
+    def seek(bad):
+      return bad.queue[-2]
+    def beek(bad):
+      return bad.queue[-3]
+    def ceek(bad):
+      return bad.queue[-4]
+
+
+a=queue()
+a.add(1)
+a.add(2)
+a.add(3)
+a.add(4)
+print(a.peek())
+print(a.seek())
+print(a.beek())
+print(a.ceek())
