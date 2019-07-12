@@ -1,3 +1,3 @@
-a=input()
-b=a+"."
-print(b)
+string=input()
+string=string+"."
+print(string)
