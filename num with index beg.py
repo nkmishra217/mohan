@@ -1,7 +1,6 @@
-mo=int(input()
-    print(i,n)
-    n=n+1)
+mo=int(input())
 moh=list(map(int,input().split()))
 n=0
 for i in moh:
-    n=n+0
+    print(i,n)
+    n=n+1
