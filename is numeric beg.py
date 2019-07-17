@@ -1,7 +1,7 @@
 
 n2=input()
 if n2.isdigit:
-  print("yes")
+  print("Yes")
 else:
-  print("no")
+  print("No")
 
