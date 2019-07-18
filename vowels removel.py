@@ -8,4 +8,4 @@ for i in moh:
         count=count+i
         
         
-print(count)     
+print(count[::-1])     
