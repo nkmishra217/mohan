@@ -1,11 +1,10 @@
     
-m,h=map(str,input().split())
-if(len(m)!=len(h)):
-    print("no")
-else :
-    s1=[m.count(i) for i in m]
-    s2=[h.count(i) for i in h]
-if(s1==s2):
+mo,h=list(map(str,input().split()))
+count=0
+for i in range(0,len(mo)):
+    if(mo[i]!=h[i]):
+        count+=1
+if(count==1):
     print("yes")
 else:
     print("no")
