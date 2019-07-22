@@ -1,16 +1,15 @@
+    
+
 m=int(input())
-cocount=0
-count=1
-n=input()
-for i in range(1,m):
-    k=input()
-    if len(k)==len(n):
-        for j in k:
-            if j in n:
-              cocount+=1
-            if len(n)==cocount:
-                count=count+1
-                
+name="kabali"
+s=sorted(name)
+count=0
+for i in range(0,m):
+    k=input("")
+    a=sorted(k)
+    if a==s:
+        count+=1
+
+print(count)    
     
     
-print(count)
