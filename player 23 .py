@@ -1,5 +1,5 @@
 n,m=map(int,input().split())
-print()
+s=input()
 l=list(map(int,input().split()[:n]))
 a=list(map(int,input().split()[:m]))
 for i in a:
